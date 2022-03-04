@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Elemanlari</title>
+  </head>
+  <body>
+    <form action="">
+    <input type="text" name="ad" id="ad" minlength="2"><br>
+    <input type="number" name="yas" id="yas" min="18" max="75" ><br>
+    <input type="email" name="eposta" id="eposta" required><br>
+    <input type="password" name="sifre" id="sifre" maxlength="8"><br>
+    <input type="search" name="ara" id="ara"><br>
+    <input type="url" name="site" id="site"><br>
+    <input type="tel" name="tel" id="tel"><br>
+    <input type="hidden" name="id">
+    <input type="checkbox" name="futbol" id="futbol"> <label for="futbol">Futbol</label>
+    <input type="checkbox" name="muzik" id="muzik"> <label for="muzik">Müzik</label>
+    <input type="checkbox" name="kayak" id="kayak"> <label for="kayak">Kayak</label>
+    <br>
+    <input type="radio" name="cinsiyet" id="cinsiyetE"><label for="cinsiyetE">Erkek</label>
+    <input type="radio" name="cinsiyet" id="cinsiyetK"><label for="cinsiyetK">Kadin</label>
+    <br>
+    <label for="profil">Profil Foto Sec</label><input type="file" name="profil" id="profil">
+    <br>
+    <input type="color" name="renk" id="renk">
+    <br>
+    <input type="range" name="" id="">
+    <br>
+    <input type="date" name="dt" id="dt">
+    <br>
+    <input type="time" name="baslama" id="baslama">
+    <br>
+    <input type="datetime" name="dt" id="dt">
+    <br>
+    <input type="datetime-local" name="" id="">
+    <input type="month" name="" id="">
+    <input type="week" name="" id="">
+    <br>
+    <select name="sehir" id="sehir" multiple size="3">
+      <option>Seciniz</option>
+      <option value="1">Adana</option>
+      <option value="2">Antalya</option>
+      <option value="3">Ankara</option>
+    </select>
+    <br>
+    <textarea name="adres" id="adres" cols="20" rows="5">Adres:</textarea>
+    <input type="submit" value="Gönder">
+  </form>
+  </body>
+</html>
