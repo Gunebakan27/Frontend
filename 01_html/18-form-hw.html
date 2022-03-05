@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <table>
+        <tr>
+          <td>
+            <label for="ad">Adi</label>
+          </td>
+          <td>
+            <input type="text" name="ad" id="ad" required minlength="3" />
+          </td>
+          <td><label for="futbol">Hobiler</label></td>
+
+          <td rowspan="2">
+            <input type="checkbox" name="futbol" id="futbol" /><label
+              for="futbol"
+              >Futbol</label
+            ><br />
+            <input type="checkbox" name="voley" id="voley" /><label for="voley"
+              >Voleybol</label
+            ><br />
+            <input type="checkbox" name="basket" id="basket" /><label
+              for="basket"
+              >Basketbol</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><label for="soyad">Soyadi</label></td>
+          <td>
+            <input type="text" name="soyad" id="soyad" required minlength="3" />
+          </td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><label for="cinsiyet">Cinsiyet</label></td>
+          <td>
+            <input type="radio" name="cinsiyet" id="bay" />
+            <label for="bay">Bay</label>
+            <input type="radio" name="cinsiyet" id="bayan" />
+            <label for="bayan">Bayan</label>
+          </td>
+          <td><label for="foto">Profil Foto</label></td>
+          <td><input type="file" name="foto" id="foto" /></td>
+        </tr>
+        <tr>
+          <td><label for="ilce">Ilce</label></td>
+          <td>
+            <select name="ilce" id="ilce">
+              <option>Seciniz</option>
+              <option value="1">Sehitkamil</option>
+              <option value="2">Sahinbey</option>
+              <option value="3">Islahiye</option>
+            </select>
+          </td>
+          <td><label for="dt">Dogum Tarihi</label></td>
+          <td>
+            <input type="date" name="dt" id="dt" required min="2004-12-31" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="eposta">Eposta</label></td>
+          <td>
+            <input type="email" name="eposta" id="eposta" required />
+          </td>
+          <td><label for="adres">Adres</label></td>
+          <td rowspan="3">
+            <textarea name="adres" id="adres" cols="30" rows="5"></textarea>
+            <br />
+            <input type="submit" value="Kayit Ol" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="site">Kisisel Site</label></td>
+          <td>
+            <input type="url" name="site" id="site" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="tel">Telefon</label></td>
+          <td><input type="tel" name="tel" id="tel" value="+90" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
