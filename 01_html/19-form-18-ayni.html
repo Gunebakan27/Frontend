@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <table>
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <td><label for="fname">Adi</label></td>
+                <td>
+                  <input
+                    type="text"
+                    name="fname"
+                    id="fname"
+                    required
+                    minlength="2"
+                    maxlength="30"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="lname">Soyadi</label></td>
+                <td>
+                  <input
+                    type="text"
+                    name="lname"
+                    id="lname"
+                    required
+                    minlength="2"
+                    maxlength="30"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Cinsiyet</td>
+                <td>
+                  <input type="radio" name="gender" id="male" required/><label for="male"
+                    >Erkek</label
+                  >
+                  <input type="radio" name="gender" id="female" /><label for="male"
+                    >Kadin</label
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td><label for="state">Ilce</label></td>
+                <td><select name="state" id="state" required>
+                    <option value="" >Seciniz</option>
+                    <option value="1">Besiktas</option>
+                    <option value="2">Galatasaray</option>
+                    <option value="3">Fenerbahce</option>
+                </select></td>
+              </tr>
+              <tr>
+                <td><label for="email">Eposta</label></td>
+                <td><input type="email" name="email" id="email" required></td>
+              </tr>
+              <tr>
+                <td><label for="site">Kisisel Site</label></td>
+                <td><input type="url" name="site" id="site"></td>
+              </tr>
+              <tr>
+                <td><label for="tel">Telefon</label></td>
+                <td><input type="tel" name="tel" id="tel" placeholder="+90(xxx)xxx-xx-xx"></td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table>
+              <tr>
+                <td>Hobiler</td>
+                <td>
+                    <input type="checkbox" name="fball" id="fball"><label for="fball">Futbol</label>  <br>
+                    <input type="checkbox" name="vball" id="vball"><label for="vball">Voleybol</label>  <br>
+                    <input type="checkbox" name="bball" id="bball"><label for="bball">Basketbol</label>  <br>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="foto">Profil Foto</label></td>
+                <td><input type="file" name="foto" id="foto" required></td>
+               <!-- Kullanıcı tek dosya değil tek seferde birden fazla dosya eklemesi kodu :
+<input type="file" name="uploadedfiles[]" multiple> 
+
+kullanıcıdan dosya seçmesi için dosya formatlarını belirleme kodu :
+<input type="file" name="uploadedimage" accept="image/png, .jpeg, .jpg, image/gif">-->
+              </tr>
+              <tr>
+                <td><label for="dt">Dogum Tarihi</label></td>
+                <td><input type="date" name="dt" id="dt" required min="2012-01-30"></td>
+              </tr>
+              <tr>
+                <td><label for="adres">Adres</label></td>
+                <td><textarea name="adres" id="adres" cols="30" rows="4" maxlength="100"></textarea></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="submit" value="Kaydet"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

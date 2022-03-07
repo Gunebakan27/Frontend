@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veli</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  </head>
+  <body>
+    <h1 id="veli">VELI KAYIT FORMU</h1>
+
+    <table>
+      <tr>
+        <td><label for="isim">ISIM</label></td>
+        <td>
+          <input type="text" name="isim" id="isim" required minlength="2" />
+        </td>
+      </tr>
+      <tr>
+        <td><label for="soyisim">SOYISIM</label></td>
+        <td><input type="text" name="soyisim" id="soyisim" /></td>
+      </tr>
+      <tr>
+        <td><label for="tel"></label>TEL</td>
+        <td><input type="tel" name="tel" id="tel" /></td>
+      </tr>
+      <tr>
+        <td><label for="adres">ADRES</label></td>
+        <td>
+          <textarea name="adres" id="adres" cols="30" rows="5"></textarea>
+        </td>
+      </tr>
+      <tr>
+        <td><label for="email">Eposta</label></td>
+        <td><input type="email" name="email" id="email" /></td>
+      </tr>
+      <tr>
+        <td><label for="brans">MESLEK</label></td>
+        <td>
+          <select name="brans" id="brans">
+            <option>Seciniz</option>
+            <option value="1">Ögretmen</option>
+            <option value="2">Doktor</option>
+            <option value="3">Memur</option>
+            <option value="4">Mühendis</option>
+            <option value="5">Diger</option>
+          </select>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <a href="09-okul.html"
+            ><i class="fa-solid fa-left-long">&nbsp GERI</i></a
+          >
+        </td>
+        <td>
+          <input type="submit" value="Gönder" />
+          <input type="reset" value="Temizle" />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
