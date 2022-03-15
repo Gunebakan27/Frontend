@@ -1,0 +1,18 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav.menu{
+    text-align: center;
+    background-color:gray;
+    width: 50%;
+   
+}
+.active{
+    background-color:rgb(93, 87, 87);
+
+}
+a{
+    color:black;
+    text-decoration:none;
+}

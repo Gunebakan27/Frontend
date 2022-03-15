@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSEUDO</title>
+    <style>
+           .menu li:first-child{
+            background-color:blueviolet;
+        }
+        .menu li:last-child{
+            background-color:blueviolet;
+        }
+        .menu li:last-child a{
+           color:red;
+        }
+        .menu li:nth-child(3) {
+            background-color:yellow;
+        }
+        .tablo{
+            background-color:bisque;
+           width:100%;
+        }
+        .tablo tr:nth-child(odd){
+            background-color:gray;
+        }
+        .tablo tr:nth-child(even){
+            background-color:rgb(230, 182, 182);
+        }
+        .menu li:after{
+            content:"*"
+
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="">Link</a></li>
+        <li><a href="">Link</a></li>
+        <li><a href="">Link</a></li>
+        <li><a href="">Link</a></li>
+        <li><a href="">Link</a></li>
+    </ul>
+    <table class="tablo"> 
+        <tbody>
+            <tr>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+            </tr>
+            <tr>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+            </tr>
+            <tr>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+            </tr>
+            <tr>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+            </tr>
+            <tr>
+                <td>.</td>
+                <td>.</td>
+                <td>.</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

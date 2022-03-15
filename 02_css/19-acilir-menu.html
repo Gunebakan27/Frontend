@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --color1:rgb(157, 161, 157);
+            --color2:rgb(19, 18, 18);
+        }
+        nav{
+            display: inline-block;
+        }
+nav.menu ul li{
+
+
+}
+nav.menu input{
+    width: 7rem;
+    padding: 0.5rem 1rem;
+    display:inline-block;
+}
+nav.menu:hover ul {
+    display:block;
+}
+nav.menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display:none;
+}
+nav.menu a{
+    background-color:var(--color1);
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(19, 18, 18);
+    width:5rem;
+    text-align: center;
+}
+nav.menu .active,
+nav.menu a:hover{
+background-color:var(--color2);
+color: white;
+}
+
+
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <input type="button" value="Ürünler">
+        <ul>
+          <li><a href="#">Ana Sayfa</a></li>
+          <li >
+            <a class="active" href="#">Ürünler</a>
+          </li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">İletişim</a></li>
+        </ul>
+      </nav> 
+</body>
+</html>

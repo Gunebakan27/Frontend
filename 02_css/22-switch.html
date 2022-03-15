@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.kutu{
+    background-color:chocolate;
+    height:100vh;
+}
+.btn{
+    background-color:blue;
+    color:white;
+    padding:0.5rem 1rem 1rem;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+#btn:checked + .kutu{
+    background-color:blueviolet;
+}
+#btn{
+    display:none;
+}
+    </style>
+</head>
+<body>
+    <label class="btn" for="btn">Mod Degistir</label>
+    <input type="checkbox" name="btn" id="btn">
+
+   
+   <div class="kutu">
+
+   </div>
+</body>
+</html>

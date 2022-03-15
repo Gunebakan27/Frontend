@@ -1,5 +1,10 @@
 *{
-    color:brown
+    text-align: center;
+    background-color: gray;
+}
+.aktif {
+    background-color:rgb(66, 61, 61);
+    color: white;
 }
 /* Aciklama yapilabilir*/
 

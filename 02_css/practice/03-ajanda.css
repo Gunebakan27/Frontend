@@ -1,0 +1,10 @@
+body{
+    background: url(../assets/img/resim4.jpg) center/cover no-repeat;
+}
+div{
+    background-color: bisque;
+    width: 25%;
+}
+h1,h3{
+  background-color:rgb(180, 156, 120)  
+}

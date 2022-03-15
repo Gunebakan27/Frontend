@@ -1,0 +1,29 @@
+nav.menu{
+    font-family: 'Roboto', sans-serif;
+text-align:justify;
+background-color:rgb(182, 173, 173);
+width: 300px;
+}
+ul.menu{
+    list-style:"✨" ;
+    padding:0;
+    list-style-position:inside;
+}
+.active{
+    background:gray;
+}
+a.link{
+text-decoration:none;
+font-weight: 400;
+color:black;
+}
+a.link:visited{
+    color:black;
+}
+li.item{
+padding:1rem;
+}
+a.link:hover{
+    color: white;
+    background-color:orange;
+}
